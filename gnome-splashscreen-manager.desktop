@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Splash Screen Manager
+Comment=Splash Screen Manager
+Exec=gnome-splashscreen-manager
+Icon=/usr/share/gnome-art/glade/gnome-graphics.png
+Type=Application
+Categories=GTK;GNOME;Settings;
+StartupNotify=true

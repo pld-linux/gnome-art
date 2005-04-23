@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gnome Art
+Comment=A frontend for art.gnome.org
+Exec=gnome-art
+Icon=/usr/share/gnome-art/glade/gnome-graphics.png
+Type=Application
+Categories=GTK;GNOME;Utility;
+StartupNotify=true
