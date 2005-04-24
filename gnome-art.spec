@@ -2,6 +2,7 @@
 %define	ruby_rubylibdir	%(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 #
 Summary:	A frontend for art.gnome.org
+Summary(pl):	Frontend do art.gnome.org
 Name:		gnome-art
 Version:	0.2
 Release:	0.1
@@ -24,10 +25,14 @@ all themes can be downloaded and previewed. Backgrounds, icon themes
 and splash screens can be installed directly. GNOME Splash Screen
 Manager is for managing the splash screens of the GNOME desktop.
 
+%description -l pl
+GNOME Art to graficzny interfejs do art.gnome.org. Pozwala podgl±daæ i
+¶ci±gaæ t³a oraz wszystkie motywy. Mo¿na bezpo¶rednio instalowaæ t³a,
+motywy ikon i ekrany startowe. GNOME Splash Screen Manager s³u¿y do
+zarz±dzania ekranami startowymi ¶rodowiska GNOME.
+
 %prep
 %setup -q -n %{name}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -66,8 +71,8 @@ install gnome-splashscreen-manager/data/gnome-splashscreen-manager/glade/*.glade
 install gnome-splashscreen-manager/data/gnome-splashscreen-manager/glade/*.png \
     $RPM_BUILD_ROOT%{_datadir}/gnome-splashscreen-manager/glade
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/
-install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}/
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
