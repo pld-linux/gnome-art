@@ -1,6 +1,3 @@
-#
-%define	ruby_rubylibdir	%(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-#
 Summary:	A frontend for art.gnome.org
 Summary(pl):	Frontend do art.gnome.org
 Name:		gnome-art
@@ -10,9 +7,10 @@ License:	GPL v2
 Group:		Applications
 Source0:	http://www.miketech.net/gnome-art/download/%{name}-%{version}.tar.gz
 # Source0-md5:	4dd59ba8a84efe8dcb5637ba051394e7
-Source1:	gnome-art.desktop
+Source1:	%{name}.desktop
 Source2:	gnome-splashscreen-manager.desktop
 URL:		http://www.miketech.net/gnome-art/
+BuildRequires:	rpmbuild(macros) >= 1.272
 BuildRequires:	ruby >= 1.8.2
 Requires:	ruby-gnome2 >= 0.12.0
 Requires:	ruby-rbogl
