@@ -15,7 +15,7 @@ BuildRequires:	ruby >= 1.8.2
 Requires:	ruby-gnome2 >= 0.12.0
 Requires:	ruby-rbogl
 BuildArch:	noarch
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
