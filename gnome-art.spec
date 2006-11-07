@@ -98,4 +98,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/gnome-splashscreen-manager/glade
 %{_datadir}/gnome-splashscreen-manager/glade/*.glade
 %{_datadir}/gnome-splashscreen-manager/glade/*.png
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
