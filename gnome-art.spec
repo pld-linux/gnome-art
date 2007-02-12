@@ -1,5 +1,5 @@
 Summary:	A frontend for art.gnome.org
-Summary(pl):	Frontend do art.gnome.org
+Summary(pl.UTF-8):   Frontend do art.gnome.org
 Name:		gnome-art
 Version:	0.2
 Release:	0.1
@@ -24,11 +24,11 @@ all themes can be downloaded and previewed. Backgrounds, icon themes
 and splash screens can be installed directly. GNOME Splash Screen
 Manager is for managing the splash screens of the GNOME desktop.
 
-%description -l pl
-GNOME Art to graficzny interfejs do art.gnome.org. Pozwala podgl±daæ i
-¶ci±gaæ t³a oraz wszystkie motywy. Mo¿na bezpo¶rednio instalowaæ t³a,
-motywy ikon i ekrany startowe. GNOME Splash Screen Manager s³u¿y do
-zarz±dzania ekranami startowymi ¶rodowiska GNOME.
+%description -l pl.UTF-8
+GNOME Art to graficzny interfejs do art.gnome.org. Pozwala podglÄ…daÄ‡ i
+Å›ciÄ…gaÄ‡ tÅ‚a oraz wszystkie motywy. MoÅ¼na bezpoÅ›rednio instalowaÄ‡ tÅ‚a,
+motywy ikon i ekrany startowe. GNOME Splash Screen Manager sÅ‚uÅ¼y do
+zarzÄ…dzania ekranami startowymi Å›rodowiska GNOME.
 
 %prep
 %setup -q -n %{name}
