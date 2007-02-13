@@ -1,5 +1,5 @@
 Summary:	A frontend for art.gnome.org
-Summary(pl.UTF-8):   Frontend do art.gnome.org
+Summary(pl.UTF-8):	Frontend do art.gnome.org
 Name:		gnome-art
 Version:	0.2
 Release:	0.1
