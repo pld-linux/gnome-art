@@ -12,6 +12,7 @@ Source2:	gnome-splashscreen-manager.desktop
 URL:		http://www.miketech.net/gnome-art/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby >= 1.8.2
+BuildRequires:	ruby-modules
 Requires:	ruby-gnome2 >= 0.12.0
 Requires:	ruby-rbogl
 %{?ruby_mod_ver_requires_eq}
